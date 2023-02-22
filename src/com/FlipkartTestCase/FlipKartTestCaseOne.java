@@ -57,8 +57,14 @@
 	        Thread.sleep(2000);
 	        WebElement user4 = driver.findElement(By.xpath("//button[@type='submit']"));
 	        user4.click();
+		Thread.sleep(2000);
+	        WebElement user5 = driver.findElement(By.xpath("//input[@maxlength='10']"));
+	        user5.sendKeys("9600725886");
+	        Thread.sleep(2000);
+	        WebElement user6 = driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[2]/div/div[1]/div[1]/div/div/div/div/div[1]/div/form/div[4]/button/span"));
+	        user6.click();
 	        
-	        
+	      
 	        
 	        
 	        
